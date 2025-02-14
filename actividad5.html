@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplos de Posicionamiento en CSS</title>
+    <style>
+        /* Estilos para el ejemplo de posicionamiento relativo */
+        .caja-relativa {
+            width: 200px;
+            height: 200px;
+            background-color: lightblue;
+            position: relative; /* Posicionamiento relativo */
+            top: 20px; /* Mueve la caja 20px hacia abajo */
+            left: 30px; /* Mueve la caja 30px hacia la derecha */
+            margin-bottom: 50px; /* Espacio entre los ejemplos */
+        }
+
+        /* Estilos para el ejemplo de posicionamiento absoluto */
+        .contenedor {
+            position: relative; /* Contenedor con posicionamiento relativo */
+            width: 300px;
+            height: 300px;
+            background-color: lightgray;
+            border: 1px solid #000; /* Borde para visualizar el contenedor */
+        }
+
+        .caja-absoluta {
+            width: 100px;
+            height: 100px;
+            background-color: coral;
+            position: absolute; /* Posicionamiento absoluto */
+            top: 50px; /* Mueve la caja 50px desde la parte superior del contenedor */
+            left: 50px; /* Mueve la caja 50px desde la parte izquierda del contenedor */
+        }
+    </style>
+</head>
+<body>
+    <h2>Ejemplo de Posicionamiento Relativo</h2>
+    <div class="caja-relativa">Caja Relativa</div>
+
+    <h2>Ejemplo de Posicionamiento Absoluto</h2>
+    <div class="contenedor">
+        <div class="caja-absoluta">Caja Absoluta</div>
+    </div>
+</body>
+</html>
